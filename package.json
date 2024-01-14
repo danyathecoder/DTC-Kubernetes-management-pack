@@ -1,0 +1,22 @@
+{
+  "name": "dtc-k8s-pack",
+  "displayName": "DTC Kubernetes management pack",
+  "publisher": "danyathecoder",
+  "description": "This pack contains extensions for using kubernetes from vs code directly.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danyathecoder/DTC-Kubernetes-management-pack.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "redhat.vscode-yaml"
+  ]
+}
